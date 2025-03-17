@@ -18,8 +18,6 @@
 
 </div>
 
-## COMBAT CAPABILITIES
-
 ### Terminal options
 - **Matrix Processing** - Military-grade color algorithms
 - **Animation Engine** - Battlefield-ready effects
