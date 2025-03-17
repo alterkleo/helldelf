@@ -19,11 +19,11 @@
 </div>
 
 ### Terminal options
-- **Matrix Processing** - Military-grade color algorithms
-- **Animation Engine** - Battlefield-ready effects
-- **Strike System** - Precision terminal control
-- **ASCII** - Heavy-duty pattern generation
-- **Stealth Mode** - Invisible cursor operations
+- **Matrix Processing** -  color algorithms
+- **Animation Engine** -  effects
+- **Strike System** -  terminal control
+- **ASCII** -  pattern generation
+- **Stealth Mode** - Invisible cursor
 
 ## DEPLOYMENT REQUIREMENTS
 
