@@ -118,10 +118,8 @@ SCHEMES: Dict[str, List[str]] = {
 }
 
 class rgb:
-    """RGB color class with blending and ANSI terminal support"""
     
     def __init__(self, r: int, g: int, b: int):
-        """Initialize RGB color with values clamped between 0-255"""
         self.r, self.g, self.b = (
             max(0, min(255, r)),
             max(0, min(255, g)), 
@@ -130,11 +128,9 @@ class rgb:
 
     @classmethod
     def rand(cls) -> "rgb":
-        """Generate random RGB color"""
         return cls(randint(0, 255), randint(0, 255), randint(0, 255))
 
     def blend(self, other: "rgb", f: float) -> "rgb":
-        """Blend with another color using factor f (0-1)"""
         f = max(0, min(1, f))
         return rgb(
             int(self.r + (other.r - self.r) * f),
@@ -143,15 +139,12 @@ class rgb:
         )
 
     def to_ansi(self, background: bool = False) -> str:
-        """Convert to ANSI color code for terminal output"""
         code = 48 if background else 38
         return f"\033[{code};2;{self.r};{self.g};{self.b}m"
 
     def __str__(self) -> str:
-        """String representation of RGB values"""
         return f"rgb({self.r}, {self.g}, {self.b})"
 
     def __repr__(self) -> str:
-        """Object representation"""
         return self.__str__()
 
