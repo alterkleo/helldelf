@@ -23,7 +23,7 @@
 - **Animation Engine** -  effects
 - **Strike System** -  terminal control
 - **ASCII** -  pattern generation
-- **Stealth Mode** - Invisible cursor
+- **Stealth Mode** - invisible cursor
 
 ## DEPLOYMENT REQUIREMENTS
 
