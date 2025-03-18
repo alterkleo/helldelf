@@ -1,8 +1,8 @@
 from typing import Dict, List, Tuple, Union, Optional, Callable
 
 import time
-import os
 import sys
+import os
 
 def get_terminal_size() -> Tuple[int, int]:
     return os.get_terminal_size()
