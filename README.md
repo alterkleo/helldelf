@@ -1,48 +1,49 @@
 <div align="center">
 
-```py
-""" ╔═══════════════════════════╗
-    ║   HELLDELF - V2.2.3       ║
-    ╚═══════════════════════════╝
-    README.md             """
+```python
+"""╔═══════════════════════════╗
+   ║  HELLDELF V2.2.3          ║
+   ╚═══════════════════════════╝
+     README.md """
 ```
 
----
-
-
-
-<div> <img src="./media/dashboard.gif" width="340px"> <img src="./media/music.gif" width="340px"> </div>
+<img src="./media/dashboard.gif" width="340px" alt="Dashboard Preview">
+<img src="./media/music.gif" width="340px" alt="Music Visualization">
 
 ---
-
 
 </div>
 
-### Terminal options
-- **Matrix Processing** -  color algorithms
-- **Animation Engine** -  effects
-- **Strike System** -  terminal control
-- **ASCII** -  pattern generation
-- **Stealth Mode** - invisible cursor
+## Core Features
 
-## DEPLOYMENT REQUIREMENTS
+| Component | Purpose |
+|-----------|---------|
+| **Matrix Processing** | Advanced color algorithms |
+| **Animation Engine** | Terminal effects and rendering |
+| **Terminal** | Terminal control mechanisms |
+| **ASCII** | Pattern generation tools |
+| **Cursor** | Invisible cursor operations and more options |
 
-```bash
-Python >= 3.8
-RAM >= 256MB
-GPU Support: Optional but recommended
-Terminal: 256 colors minimum
-OS Support: Linux | Windows | macOS
+## System Requirements
+
+```console
+┌─ Environment Requirements ────────────┐
+│ Python        │ >= 3.8               │
+│ Memory        │ >= 256MB             │
+│ GPU Support   │ Optional             │
+│ Terminal      │ 256 colors minimum   │
+│ Compatibility │ Linux/Windows/macOS  │
+└──────────────┴────────────────────── ┘
 ```
 
-## Install
+## Installation Methods
 
-### Quick deploy
+### Method 1: Quick Deploy
 ```bash
 pip install helldelf --w
 ```
 
-### Git deploy
+### Method 2: Source Install
 ```bash
 git clone https://github.com/alterkleo/helldelf.git
 cd helldelf
@@ -53,6 +54,6 @@ python setup.py install --w
 
 <div align="center">
 
-**[alterkleo](https://github.com/alterkleo)**
+**Created by [alterkleo](https://github.com/alterkleo)**
 
 </div>
